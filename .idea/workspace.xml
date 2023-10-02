@@ -5,12 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ea4eee8-b0e9-47a6-bc44-bee89245edf2" name="Changes" comment="commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/kodlamaio/northwind/core/dataAccess/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kodlamaio/northwind/core/entities/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kodlamaio/northwind/entities/dtos/ProductWithCategoryDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/kodlamaio/northwind/api/controller/ProductsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kodlamaio/northwind/api/controller/ProductsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kodlamaio/northwind/business/abstracts/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kodlamaio/northwind/business/abstracts/ProductService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/kodlamaio/northwind/business/concretes/ProductManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kodlamaio/northwind/business/concretes/ProductManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/kodlamaio/northwind/dataAccess/abstracts/ProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kodlamaio/northwind/dataAccess/abstracts/ProductDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kodlamaio/northwind/entities/concretes/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kodlamaio/northwind/entities/concretes/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kodlamaio/northwind/entities/concretes/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kodlamaio/northwind/entities/concretes/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kodlamaio/northwind/api/controller/ProductsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kodlamaio/northwind/api/controller/ProductsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kodlamaio/northwind/business/abstracts/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kodlamaio/northwind/business/abstracts/ProductService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kodlamaio/northwind/business/concretes/ProductManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kodlamaio/northwind/business/concretes/ProductManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kodlamaio/northwind/dataAccess/abstracts/ProductDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kodlamaio/northwind/dataAccess/abstracts/ProductDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kodlamaio/northwind/entities/concretes/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kodlamaio/northwind/entities/concretes/Category.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kodlamaio/northwind/entities/concretes/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kodlamaio/northwind/entities/concretes/Product.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +33,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -79,7 +92,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "editor.preferences.completion",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Debugger",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -124,6 +137,7 @@
       <workItem from="1696197448681" duration="64000" />
       <workItem from="1696251781420" duration="64000" />
       <workItem from="1696251851837" duration="2235000" />
+      <workItem from="1696272447560" duration="6612000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <option name="closed" value="true" />
@@ -213,6 +227,11 @@
           <properties class="org.springframework.context.ApplicationContextException" package="org.springframework.context" />
           <option name="timeStamp" value="4" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/kodlamaio/northwind/api/controller/ProductsController.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

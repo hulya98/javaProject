@@ -5,12 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ea4eee8-b0e9-47a6-bc44-bee89245edf2" name="Changes" comment="commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/kodlamaio/northwind/api/controller/UsersController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kodlamaio/northwind/business/abstracts/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kodlamaio/northwind/business/concretes/UserManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kodlamaio/northwind/core/dataAccess/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kodlamaio/northwind/core/dataAccess/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kodlamaio/northwind/api/controller/UsersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kodlamaio/northwind/api/controller/UsersController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kodlamaio/northwind/business/abstracts/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kodlamaio/northwind/business/abstracts/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kodlamaio/northwind/business/concretes/UserManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kodlamaio/northwind/business/concretes/UserManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kodlamaio/northwind/core/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kodlamaio/northwind/core/entities/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kodlamaio/northwind/entities/concretes/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kodlamaio/northwind/entities/concretes/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kodlamaio/northwind/entities/concretes/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kodlamaio/northwind/entities/concretes/Product.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -228,14 +231,10 @@
           <line>25</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
+        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/kodlamaio/northwind/api/controller/UsersController.java</url>
-          <line>38</line>
-          <properties class="kodlamaio.northwind.api.controller.UsersController" method="handleValidationException">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="6" />
+          <line>44</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

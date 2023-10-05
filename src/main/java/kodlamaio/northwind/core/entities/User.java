@@ -3,6 +3,7 @@ package kodlamaio.northwind.core.entities;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.hibernate.annotations.GeneratorType;
 
 import javax.persistence.*;
 import javax.validation.constraints.Email;
@@ -18,9 +19,9 @@ public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name="id")
-    private int id;
+    private Integer id;
+
     @Column(name = "email")
-    @Email
     @NotBlank
     @NotNull
     private String email;

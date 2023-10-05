@@ -10,9 +10,12 @@ import kodlamaio.northwind.core.utilities.results.SuccessResult;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service
 public class UserManager implements UserService {
     private UserDao userDao;
+
     @Autowired
     public UserManager(UserDao userDao) {
         super();
@@ -25,8 +28,14 @@ public class UserManager implements UserService {
         return new SuccessResult("User added");
     }
 
+
     @Override
     public DataResult<User> findByEmail(String email) {
         return new SuccessDataResult<User>(this.userDao.findByEmail(email), "User found");
+    }
+
+    @Override
+    public DataResult<List<User>> getUsers() {
+        return new SuccessDataResult<List<User>>(this.userDao.findAll());
     }
 }

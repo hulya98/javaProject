@@ -30,8 +30,13 @@ public class UsersController {
     private UserService userService;
 
     @PostMapping(value = "/add")
-    public ResponseEntity<?> add(@Valid @RequestBody User user) {
+    public ResponseEntity<?> add(@RequestBody User user) {
         return ResponseEntity.ok(this.userService.add(user));
+    }
+
+    @GetMapping
+    public ResponseEntity<?> getUsers() {
+        return ResponseEntity.ok(this.userService.getUsers());
     }
 
     @ExceptionHandler(MethodArgumentNotValidException.class)
